@@ -1,11 +1,8 @@
-package com.wildma.mqttandroidclient.permission;
+package com.wildma.mqttandroidclient;
 
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
-
-import com.wildma.mqttandroidclient.R;
-
 
 /**
  * Desc	        ${DialogHelper}

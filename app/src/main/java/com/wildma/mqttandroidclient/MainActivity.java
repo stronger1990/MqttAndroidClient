@@ -6,10 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
-import com.wildma.mqttandroidclient.permission.DialogHelper;
-import com.wildma.mqttandroidclient.permission.PermissionConstants;
-import com.wildma.mqttandroidclient.permission.PermissionUtils;
-
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {

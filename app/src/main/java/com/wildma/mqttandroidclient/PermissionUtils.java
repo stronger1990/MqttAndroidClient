@@ -1,4 +1,4 @@
-package com.wildma.mqttandroidclient.permission;
+package com.wildma.mqttandroidclient;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,8 +14,6 @@ import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.WindowManager;
-
-import com.wildma.mqttandroidclient.MyApplication;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -35,14 +33,14 @@ public final class PermissionUtils {
     private static PermissionUtils sInstance;
 
     private OnRationaleListener mOnRationaleListener;
-    private SimpleCallback      mSimpleCallback;
-    private FullCallback        mFullCallback;
-    private ThemeCallback       mThemeCallback;
-    private Set<String>         mPermissions;
-    private List<String>        mPermissionsRequest;
-    private List<String>        mPermissionsGranted;
-    private List<String>        mPermissionsDenied;
-    private List<String>        mPermissionsDeniedForever;
+    private SimpleCallback mSimpleCallback;
+    private FullCallback mFullCallback;
+    private ThemeCallback mThemeCallback;
+    private Set<String> mPermissions;
+    private List<String> mPermissionsRequest;
+    private List<String> mPermissionsGranted;
+    private List<String> mPermissionsDenied;
+    private List<String> mPermissionsDeniedForever;
 
     /**
      * 获取应用权限
